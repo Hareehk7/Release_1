@@ -1,11 +1,11 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Apr 03 2021 08:23:10 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="60640036aa6a07cc7ac59972" data-wf-site="6062e2399dcf78a15a650938">
+<!--  Last Published: Wed Apr 07 2021 04:52:14 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6062f58fe9d4714c80cc3895" data-wf-site="6062e2399dcf78a15a650938">
 <head>
   <meta charset="utf-8">
-  <title>Reset password</title>
-  <meta content="Reset password" property="og:title">
-  <meta content="Reset password" property="twitter:title">
+  <title>Login page</title>
+  <meta content="Login page" property="og:title">
+  <meta content="Login page" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -24,21 +24,26 @@
       <a href="#" class="brand w-nav-brand"><img src="images/Figmatic.png" loading="lazy" alt=""></a>
     </div>
   </div>
-  <div class="reset-section">
+  <div class="login-section">
     <div class="container1440 w-container">
-      <div class="reset-form w-form">
-        <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="reset-block">
-          <h1 class="reset-pwd-title">Reset Password</h1>
-          <div class="name-block"><label for="node" class="name-field text-lg leading-4 text-black font-regular tracking-normal">User name</label><input type="email" maxlength="256" data-name="" placeholder="Username/Email" id="node" class="text-field w-input"></div>
-          <div class="name-block"><label for="node-2" class="name-field text-lg leading-4 text-black font-regular tracking-normal">New password</label><input type="email" maxlength="256" data-name="" id="node" placeholder="*****" class="text-field w-input"></div>
-          <div class="name-block"><label for="node-2" class="name-field text-lg leading-4 text-black font-regular tracking-normal">Confirm password</label><input type="email" maxlength="256" data-name="" id="node" placeholder="*****" class="text-field w-input"></div><input type="submit" value="Reset password" data-wait="Please wait..." class="reset-btn text-lg leading-4 tracking-normal w-button">
-          <a href="#" class="click-here-text text-base leading-4 tracking-normal text-blue-100">Click here to login</a>
-        </form>
-        <div class="w-form-done">
-          <div>Thank you! Your submission has been received!</div>
-        </div>
-        <div class="w-form-fail">
-          <div>Oops! Something went wrong while submitting the form.</div>
+      <div class="form-wrapper">
+        <div class="loginpg-block px-40 py-80 mt-100">
+          <h1 class="login-title mb-16">Login</h1>
+          <div class="loginform-block text-lg tracking-normal w-form">
+            <form id="email-form" name="email-form" data-name="Email Form" class="login-form"><label for="name" class="login-uname leading-4 mb-10 text-lg tracking-normal font-regular">User Name</label><input type="text" class="log-usname-textfield leading-3 px-12 py-8 mb-28 w-input" maxlength="256" name="name" data-name="Name" placeholder="Username/Email" id="name"><label for="email" class="login-passwd leading-4 mb-10 text-lg tracking-normal font-regular">Password</label><input type="email" class="li-passwd-texfield leading-3 px-12 py-8 mb-6 w-input" maxlength="256" name="email" data-name="Email" placeholder="*****" id="email" required="">
+              <a href="#" class="forgotpassw-link text-base leading-4 text-blue tracking-normal mb-26">Forgot your password?</a><input type="submit" value="Login" data-wait="Please wait..." class="loginbttn leading-4 tracking-normal text-white px-76 py-9-5 text-lg w-button">
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+          <div class="signup-block mt-40">
+            <div class="dhaccnt-text text-base leading-4 tracking-normal mb-8">Don’t have an account?</div>
+            <a href="#" class="signup-bttn text-lg leading-4 tracking-normal px-66 py-9-5 w-button">Sign Up</a>
+          </div>
         </div>
       </div>
     </div>
